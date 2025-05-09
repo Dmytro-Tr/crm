@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import SidebarItem from './sidebar-item';
+import SidebarItem from '@/app/components/sidebar-item';
 
 export interface SidebarProps {}
 
