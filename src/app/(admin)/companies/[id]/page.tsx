@@ -8,7 +8,7 @@ export interface PageProps {
 export default function Page({ params }: PageProps) {
   return (
     <>
-      <Header>Companies({params.id})</Header>
+      <Header>Company ({params.id})</Header>
     </>
   );
 }
