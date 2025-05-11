@@ -1,15 +1,15 @@
 import React from 'react';
 import Image from 'next/image';
 
-export interface SearchImportProps
+export interface SearchInputProps
   extends React.InputHTMLAttributes<HTMLInputElement> {
   onSearchClick?: React.MouseEventHandler<HTMLButtonElement>;
 }
 
-export default function SearchImport({
+export default function SearchInput({
   onSearchClick,
   ...rest
-}: SearchImportProps) {
+}: SearchInputProps) {
   return (
     <div className="relative w-96">
       <input
