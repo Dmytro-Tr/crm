@@ -8,7 +8,7 @@ export interface SidebarItemProps {
   pathname: string;
   src: string;
   alt: string;
-  children: string;
+  children: React.ReactNode;
 }
 
 export default function SidebarItem({

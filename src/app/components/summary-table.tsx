@@ -2,7 +2,7 @@ import React from 'react';
 
 export interface SummaryTableProps {
   headers: React.ReactNode;
-  children: React.ReactNode;
+  children?: React.ReactNode;
 }
 
 export default function SummaryTable({ headers, children }: SummaryTableProps) {
